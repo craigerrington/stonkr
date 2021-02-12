@@ -1,5 +1,7 @@
 # Stonkr
 
+EDIT: While this notice is still here, I haven't changed it enough from CryptoTicker to call it something new. But stonks are en route.
+
 Run with
 
 ```
