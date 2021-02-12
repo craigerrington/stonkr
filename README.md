@@ -14,7 +14,7 @@ Requires a *free* API key from: https://www.alphavantage.co/
 
 Edit `dataAPI.py` and replace "APIKEYHERE" with your API key.
 
-In `stonkr.py` add/update with the symbols you want to following in the line:
+In `stonkr.py` add/update with the symbols you want to follow by changing the following line:
 
 `self.stonks = ['MSFT', 'TSLA', 'GOOG']`
 
