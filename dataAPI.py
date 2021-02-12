@@ -9,7 +9,7 @@ def getTickerData(stonks):
     tickerString = ""
 
     for c in stonks:
-        url = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={}&apikey=APIKEYHERE'.format(c)
+        url = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={}&apikey=***REMOVED***'.format(c)
         data = urllib2.urlopen(url).read()
         data = json.loads(data)
         price = data['Global Quote']['05. price']
