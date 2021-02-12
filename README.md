@@ -24,4 +24,4 @@ Run with
 sudo python TickerLED.py &
 ```
 
-![ticker](images/ticket.gif)
+![ticker](images/ticker.gif)
