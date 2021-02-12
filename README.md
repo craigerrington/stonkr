@@ -1,4 +1,4 @@
-# Stonkr
+# stonkr
 
 This is a python application to disaply strolling Stock information on an RGB matrix display.
 
@@ -6,7 +6,7 @@ The ticker will scroll through the sybol name, the current price and the percent
 
 Based on the example scripts in [`hzeller/rpi-rgb-led-matrix`](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python/samples) and [`nigel-hall-codes/CryptoTicker`](https://github.com/nigel-hall-codes/CryptoTicker)
 
-# Instructions
+# instructions
 
 Requires that you've set up python as per the instructions [in the library repository](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python).
 
