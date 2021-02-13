@@ -2,7 +2,7 @@
 
 This is a python application to disaply strolling Stock information on an RGB matrix display usiong the GPIO pins on a Raspberry Pi.
 
-The ticker will scroll through the sybol name, the current price and the percentage change from previous close. The percentage change is green for up, red for down. (STONKS/NOT STONKS functionality coming soon)
+The ticker will scroll through the sybol name, the current price and the percentage change from previous close. The percentage change is green for up, red for down. Then, most importantly of all, are they STONKS, or NOT STONKS?
 
 Based on the example scripts in [`hzeller/rpi-rgb-led-matrix`](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python/samples) and [`nigel-hall-codes/CryptoTicker`](https://github.com/nigel-hall-codes/CryptoTicker)
 
@@ -12,7 +12,7 @@ Based on the example scripts in [`hzeller/rpi-rgb-led-matrix`](https://github.co
 
 Requires that you've set up python as per the instructions [in the library repository](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python).
 
-Requires a *free* API key from: https://www.alphavantage.co/
+Requires a *free* API key from: https://finnhub.io
 
 Edit `dataAPI.py` and replace "APIKEYHERE" with your API key.
 
