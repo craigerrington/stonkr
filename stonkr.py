@@ -68,12 +68,12 @@ class RunText(SampleBase):
                     ticker = graphics.DrawText(offscreen_canvas, font, pos, 12, textColor, c)
                     price = graphics.DrawText(offscreen_canvas, font, pos + ticker + 5, 12, self.blueColor, str(self.stonkData[c]['price']))
                     pct_ch_len = graphics.DrawText(offscreen_canvas, font, pos + price + 5 + ticker + 5, 12, color, str(pct_ch))
-                    stonkornot = graphics.DrawText(offscreen_canvas, font, pos + pct_ch_len + 5 + price + 5 + ticker + 5, 12, color, str(stronkstr))
+                    stonkornot = graphics.DrawText(offscreen_canvas, font, pos + pct_ch_len + 5 + price + 5 + ticker + 5, 12, color, str(stonkstr))
                     # Slide text one position to the left
                     pos -= 1
 
                     # If ticker tape reaches end, clear and start over
-                    if (pos + ticker + price + pct_ch_len + stockornot < 0):
+                    if (pos + ticker + price + pct_ch_len + stonkornot < 0):
                         pos = offscreen_canvas.width
                         offscreen_canvas.Clear()
 
