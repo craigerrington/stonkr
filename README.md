@@ -1,6 +1,6 @@
 # stonkr
 
-This is a python application to disaply strolling Stock information on an RGB matrix display usiong the GPIO pins on a Raspberry Pi.
+This is a python application to display strolling Stock information on an RGB matrix display usiong the GPIO pins on a Raspberry Pi.
 
 The ticker will scroll through the sybol name, the current price and the percentage change from previous close. The percentage change is green for up, red for down. Then, most importantly of all, are they STONKS, or NOT STONKS?
 
