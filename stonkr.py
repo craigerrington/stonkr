@@ -16,14 +16,10 @@ class RunText(SampleBase):
         self.blueColor = graphics.Color(4, 66, 165)
         self.greenColor = graphics.Color(0, 168, 36)
         self.redColor = graphics.Color(153, 6, 1)
-        # self.manager = multiprocessing.Manager()
-        # self.return_dict = self.manager.dict()
 
 
     def updatestonkData(self, i):
         data = dataAPI.getTickerData(self.stonks)
-
-        # return_dict['data'] = data
         self.stonkData = data
         print "Stonk Data Updated", self.stonkData
 
@@ -31,8 +27,6 @@ class RunText(SampleBase):
     def run(self):
         print "Run"
         self.stonkData = dataAPI.getTickerData(self.stonks)
-        # self.return_dict['data'] = self.stonkData
-
 
         # To turn off when sleeping
 
@@ -56,6 +50,7 @@ class RunText(SampleBase):
 
                 pct_ch = self.stonkData[c]['pct_ch']
                 # makes pct_ch green if positive return
+                # Adds STONKS/NOT STONKS string
                 if float(pct_ch[:-1]) > 0:
                     color = self.greenColor
                     stonkstr = "STONKS"
@@ -95,6 +90,3 @@ if __name__ == "__main__":
     run_text = RunText()
     if (not run_text.process()):
         run_text.print_help()
-
-
-
