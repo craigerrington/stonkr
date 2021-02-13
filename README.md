@@ -21,11 +21,11 @@ In `stonkr.py` add/update with the symbols you want to follow by changing the fo
 `self.stonks = ['MSFT', 'TSLA', 'GOOG']`
 
 ```
-sudo python TickerLED.py &
+sudo python TickerLED.py
 ```
 
 Accpets all the options from the main library. For instance, specify a 32 row display:
 
 ```
-sudo python TickerLED.py --led-rows=32 &
+sudo python TickerLED.py --led-rows=32
 ```
