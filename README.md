@@ -12,7 +12,7 @@ Based on the awesome [`nigel-hall-codes/CryptoTicker`](https://github.com/nigel-
 
 Requires that you've set up python as per the instructions [in the library repository](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python).
 
-Requires a *free* API key from: https://finnhub.io
+Requires a *free* API key from [Finnhub](https://finnhub.io).
 
 Edit `dataAPI.py` and replace "APIKEYHERE" with your API key.
 
