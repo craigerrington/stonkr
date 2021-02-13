@@ -9,7 +9,7 @@ def getTickerData(stonks):
     tickerString = ""
 
     for c in stonks:
-        url = 'https://finnhub.io/api/v1/quote?symbol={}&token=***REMOVED***'.format(c)
+        url = 'https://finnhub.io/api/v1/quote?symbol={}&token=APIKEYHERE'.format(c)
         data = urllib2.urlopen(url).read()
         data = json.loads(data)
         price = data['c']
