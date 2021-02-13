@@ -14,7 +14,7 @@ def getTickerData(stonks):
         data = json.loads(data)
         price = data['c']
         prevclose = data['pc']
-        pct_ch = "%.2f" % ((price/ prevclose -1)) * 100 + '%'
+        pct_ch = "%.2f" % ((price/ prevclose -1) * 100) + '%'
 	tickerData[c] = {'price': price, 'pct_ch': pct_ch}
 
     return tickerData
