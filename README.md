@@ -10,7 +10,7 @@ Based on the awesome [`nigel-hall-codes/CryptoTicker`](https://github.com/nigel-
 
 # Instructions
 
-Requires that you've set up python as per the instructions [in the library repository](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python). Once you can run the Python examples, you should be good to go.
+Requires that you've set up Python as per the instructions [in the library repository](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python). Once you can run the Python examples, you should be good to go.
 
 Requires a *free* API key from [Finnhub](https://finnhub.io).
 
