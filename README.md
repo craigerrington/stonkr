@@ -4,7 +4,7 @@ A python application to display scrolling Stock information on an RGB matrix dis
 
 The ticker will scroll through the symbol name, the current price and the percentage change from previous close. The percentage change is green for up, red for down. Then, most importantly of all, STONKS, or NOT STONKS (also red/green).
 
-Based on the awesome [`nigel-hall-codes/CryptoTicker`](https://github.com/nigel-hall-codes/CryptoTicker) and the library from [`hzeller/rpi-rgb-led-matrix`](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python/samples).
+An API migration of the awesome [`nigel-hall-codes/CryptoTicker`](https://github.com/nigel-hall-codes/CryptoTicker) based on the library example scripts from [`hzeller/rpi-rgb-led-matrix`](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python/samples).
 
 ![ticker](images/ticker.gif)
 
