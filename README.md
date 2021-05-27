@@ -24,7 +24,7 @@ In `stonkr.py` add/update with the symbols you want to follow by changing the fo
 sudo python stonkr.py
 ```
 
-Accpets all the options from the main library. For instance, specify a 32 row display:
+Accepts all the options from the main library. For instance, specify a 32 row display:
 
 ```
 sudo python stonkr.py --led-rows=32
